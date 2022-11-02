@@ -1,0 +1,64 @@
+
+
+body > table {
+    width: 90%;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table.list{
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid cornsilk;
+    text-align: left;
+    padding: 10px;
+    vertical-align: baseline;
+}
+
+tr:nth-child(even),table.list thead>tr{
+    background-color:aqua;
+}
+
+input[type=text],input[type=password],input[type=tel],input[type=email] {
+    width: 100%;
+    padding: 15px 20px;
+    margin:10px;
+    display: inline-block;
+    border: 1px solid cornsilk;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 30%;
+    background-color: coral;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form div.form-btnac{
+    text-align: right;
+}
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+    margin-right: 4px;
+}
+label.validation-error{
+     color: aquamarine;
+     margin-left: 5px;
+}
+.hide{
+    display: none;
+}
+.btnac{
+    display:flex;
+    justify-content: center;
+}
